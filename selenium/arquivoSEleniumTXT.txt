@@ -1,0 +1,14 @@
+input 01:
+
+<input autofocus type="email" aria-label="Digite seu e-mail neste campo."  name="login" placeholder="{{(!!domain ? 'usuário' : 'usuário@domínio')}}" value="" required="required" ng-model="user" ng-model-options="{updateOn: 'default blur', allowInvalid: true}" class="px-input" ng-class="{'padding-on': domain != ''}"/>
+
+input 02:
+
+<input type="password" aria-label="Digite sua senha neste campo." required="required" value="" id="password" name="password" placeholder="senha" ng-model="pass" ng-model-options="{updateOn: 'default blur', allowInvalid: true}" class=""/>
+
+button 01:
+-> ENVIAR
+
+<button type="submit" name="submit"> Entrar </button>
+
+
