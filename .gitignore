@@ -1,2 +1,7 @@
 /.env
 /.env/*
+/requests/__pycache__
+/requests/DATA
+/requests/CSV
+/requests/HTML
+/requests/TEMP
